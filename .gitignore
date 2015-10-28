@@ -1,0 +1,106 @@
+# Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore:
+#
+# * Create a file at ~/.gitignore
+# * Include files you want ignored
+# * Run: git config --global core.excludesfile ~/.gitignore
+#
+# After doing this, these files will be ignored in all your git projects,
+# saving you from having to 'pollute' every project you touch with them
+#
+.iml
+*.iml
+
+workspace.xml
+
+**/*.lxml
+*.lxml
+    
+.idea 
+**/.idea
+Gemfile.lock
+.AppleDouble
+.LSOverride
+
+Icon 
+
+*.DS_Store
+
+# Thumbnails
+._*
+obj
+**/obj
+
+# SVN
+.svn
+**/.svn
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Build and Release Folders
+bin-debug/
+**/bin-debug
+bin-release/
+**/bin-release
+**/html-template
+
+### Project property files ###
+# # FlashBuilder ## 
+.actionScriptProperties
+.flexProperties
+**/.flexProperties
+.project
+**/.project
+.settings
+**/.settings
+.FlexUnitSettings
+**/.FlexUnitSettings
+.fxpProperties
+**/.fxpProperties
+.flexLibProperties
+**/.flexLibProperties
+
+## FlashDevelop ##
+LoadBase/DebugMap.as
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+
+# Project property files
+.actionScriptProperties
+.flexProperties
+.settings/
+.project
